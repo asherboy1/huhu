@@ -55,14 +55,14 @@
 # print(a.get("name"))
 
 
+d = {}
+
+d.update(name="xixi", age=18, tel=5566)
+
+print(d)
 a = input("name:")
 b = input("age:")
 c = input("tel:")
 
-d = {"name": a, "age": b, "tel": c}
-
-print(d.get("name"), d.get("age"), d.get("tel"))
-
-d.update(name="xixi", age=18, tel=5566)
-
-print(d.get("name"), d.get("age"), d.get("tel"))
+d.update(name=a, age=b, tel=c)
+print(d)
