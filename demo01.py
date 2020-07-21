@@ -11,7 +11,58 @@
 
 # print("he",a+b)
 
-a = 'nvjfvkanvnaioenioenvoinvioenv'
-b = "sacaslxmlaks"
-print("he", int(len(a)+int(len(b))))
-2222222
+# a = 'nvjfvkanvnaioenioenvoinvioenv'
+# b = "sacaslxmlaks"
+# print("he", len(a)+len(b))
+
+
+# c = (1, 2, 3, 4, "haha", True)  # 空元组
+# print(c)
+# print(c[4])
+# print(c.index("haha"), c.count(2))
+
+# b = (c, 1)
+# print(b[0][4])
+# print(c[1:5]) #左闭右开
+
+# a = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+# a.append(19)
+# print(a)
+# a.insert(1, 28)
+# print(a)
+# b = a.pop(1)
+# print(a, b)
+
+# c = [0, 1, True, False]
+# print(c.count(1))
+# print(c.count(0))
+
+# b = c.remove(1)
+# print(b)
+
+# a = ((4, 5))
+# b = ((a, 1))
+# print(a)
+# print(b[0])
+
+# a = {"name": "hu", "age": "22"}
+# print(a["name"], a["age"])
+# a["name"] = 'huhu'
+# print(a["name"])
+# b = a.get("name")
+# print(b)
+# a.update(name='lolo')
+# print(a.get("name"))
+
+
+a = input("name:")
+b = input("age:")
+c = input("tel:")
+
+d = {"name": a, "age": b, "tel": c}
+
+print(d.get("name"), d.get("age"), d.get("tel"))
+
+d.update(name="xixi", age=18, tel=5566)
+
+print(d.get("name"), d.get("age"), d.get("tel"))
